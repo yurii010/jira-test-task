@@ -1,0 +1,40 @@
+{
+  "key": "test-addon",
+  "name": "Test add-on",
+  "description": "This your first jira add-on",
+  "enableLicensing": true,
+  "vendor": {
+    "name": "SaaSJet",
+    "url": "https://saasjet.com"
+  },
+  "baseUrl": "https://8387-217-196-163-196.ngrok-free.app",
+  "links": {
+    "self": "https://8387-217-196-163-196.ngrok-free.app/atlassian-connect.json",
+    "homepage": "https://8387-217-196-163-196.ngrok-free.app/atlassian-connect.json"
+  },
+  "authentication": {
+    "type": "jwt"
+  },
+  "lifecycle": {
+    "installed": "/installed"
+  },
+  "scopes": [
+    "READ",
+    "ACT_AS_USER",
+    "WRITE"
+  ],
+  "modules": {
+    "generalPages": [
+      {
+        "key": "main-page",
+        "location": "system.top.navigation.bar",
+        "name": {
+          "value": "Your test addon name"
+        },
+        "url": "/main-page",
+        "conditions": [
+        ]
+      }
+    ]
+  }
+}

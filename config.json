@@ -1,0 +1,11 @@
+{
+    "expressErrorHandling": false,
+    "development": {
+        "port": 3000,
+        "store": {
+            "adapter": "mongodb",
+            "url": "mongodb+srv://feruamanti:8G5YMhT9MIjMCgjP@cluster0.vqrq2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+            "collection": "AddonSettings"
+        }
+    }
+}

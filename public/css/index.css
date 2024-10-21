@@ -1,0 +1,59 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1e1e1e;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+td {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+.link-adress {
+  color: #bb86fc;
+  text-decoration: none;
+}
+
+#main-table-panel {
+  height: 100vh;
+  padding: 16px;
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+}
+
+#dropdown-menu {
+  background-color: #333;
+  color: #e0e0e0;
+  border: 1px solid #444;
+}
+
+.dropdown-element {
+  padding: 8px;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+.dropdown-element:hover {
+  background-color: #333;
+}
+
+.dropdown-text {
+  color: #e0e0e0;
+}

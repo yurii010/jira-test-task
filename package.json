@@ -1,0 +1,60 @@
+{
+  "name": "my-addon",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "nodemon": "nodemon app.js"
+  },
+  "dependencies": {
+    "atlassian-connect-express": "3.4.0",
+    "atlassian-jwt": "^0.1.5",
+    "atob": "2.1.2",
+    "axios": "^1.7.7",
+    "body-parser": "^1.14.2",
+    "circular-json": "^0.5.7",
+    "compression": "^1.6.0",
+    "connect": "^3.6.6",
+    "cookie-parser": "^1.4.0",
+    "elliptic": "^6.5.3",
+    "errorhandler": "^1.4.2",
+    "express": "^4.17.1",
+    "express-hbs": "^2.3.4",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.1",
+    "js-sha256": "^0.9.0",
+    "jugglingdb-sqlite3": "0.0.5",
+    "jwt-simple": "^0.5.1",
+    "mongodb": "^3.6.9",
+    "morgan": "^1.6.1",
+    "nodemon": "^3.1.7",
+    "session-memory-store": "0.2.2",
+    "static-expiry": ">=0.0.5",
+    "uuid": "^3.3.3",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "compression-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "style-loader": "^1.0.0",
+    "terser": "3.14.1",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.6",
+    "webpack-fix-style-only-entries": "^0.4.0",
+    "ws": "3.3.2"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "public/*",
+      "shared/*",
+      "views/*.hbs",
+      "AWSLambdaCalculation/*"
+    ],
+    "delay": 100
+  }
+}
